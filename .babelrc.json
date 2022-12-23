@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "@form8ion"
+  ],
+  "ignore": [
+    "./lib/"
+  ]
+}
