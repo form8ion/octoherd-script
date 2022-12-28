@@ -22,6 +22,6 @@ suite('scaffold script', () => {
 
     await scaffold({projectRoot});
 
-    assert.calledWith(fs.writeFile, `${projectRoot}/script.js`, 'export async function script(octokit, repository) {}');
+    assert.calledWith(fs.writeFile, `${projectRoot}/index.js`, 'export async function script(octokit, repository) {}');
   });
 });
