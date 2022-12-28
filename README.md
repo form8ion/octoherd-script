@@ -1,6 +1,7 @@
 # octoherd-script
 
-form8ion plugin to manage script projects for octoherd
+[form8ion](https://github.com/form8ion) plugin to manage script projects for
+[octoherd](https://github.com/octoherd)
 
 <!--status-badges start -->
 
