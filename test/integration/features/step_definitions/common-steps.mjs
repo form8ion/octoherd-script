@@ -23,5 +23,5 @@ When('the project is scaffolded', async function () {
     node_modules: stubbedNodeModules
   });
 
-  await scaffold({projectRoot: this.projectRoot});
+  this.result = await scaffold({projectRoot: this.projectRoot});
 });

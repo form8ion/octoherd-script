@@ -20,8 +20,9 @@ suite('scaffold script', () => {
   test('that the script is scaffolded', async () => {
     const projectRoot = any.string();
 
-    await scaffold({projectRoot});
+    const {tags} = await scaffold({projectRoot});
 
     assert.calledWith(fs.writeFile, `${projectRoot}/index.js`, 'export async function script(octokit, repository) {}');
+    assert.deepEqual(tags, ['octoherd-script']);
   });
 });
