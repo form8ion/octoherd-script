@@ -1,10 +1,10 @@
-import {promises as fs} from 'fs';
+import {promises as fs} from 'node:fs';
 
 import any from '@travi/any';
 import sinon from 'sinon';
 import {assert} from 'chai';
 
-import scaffold from './scaffolder';
+import scaffold from './scaffolder.js';
 
 suite('scaffold script', () => {
   let sandbox;
