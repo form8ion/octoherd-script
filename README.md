@@ -90,7 +90,7 @@ $ npm test
 
 [license-link]: LICENSE
 
-[license-badge]: https://img.shields.io/github/license/form8ion/octoherd-script.svg
+[license-badge]: https://img.shields.io/github/license/form8ion/octoherd-script.svg?logo=opensourceinitiative
 
 [npm-link]: https://www.npmjs.com/package/@form8ion/octoherd-script
 
