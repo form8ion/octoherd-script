@@ -43,7 +43,8 @@
     "test:integration:focus": "run-s 'test:integration:base -- --profile focus'",
     "lint:gherkin": "gherkin-lint --config=.gherkin-lintrc.json",
     "pretest": "run-s build",
-    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*"
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
+    "lint:publish": "publint --strict"
   },
   "files": [
     "example.js",
@@ -75,6 +76,7 @@
     "mocha": "11.3.0",
     "mock-fs": "5.5.0",
     "npm-run-all2": "8.0.1",
+    "publint": "0.3.12",
     "remark-cli": "12.0.1",
     "remark-toc": "9.0.0",
     "remark-usage": "11.0.1",
