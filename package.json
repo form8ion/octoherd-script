@@ -74,7 +74,7 @@
     "gherkin-lint": "4.2.4",
     "husky": "9.1.7",
     "lockfile-lint": "4.14.1",
-    "mocha": "11.4.0",
+    "mocha": "11.5.0",
     "mock-fs": "5.5.0",
     "npm-run-all2": "8.0.3",
     "publint": "0.3.12",
