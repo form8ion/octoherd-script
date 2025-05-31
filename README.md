@@ -13,7 +13,12 @@
 
 ## Table of Contents
 
-Run `npm run generate:md` to generate a table of contents
+* [Usage](#usage)
+  * [Installation](#installation)
+  * [Example](#example)
+* [Contributing](#contributing)
+  * [Dependencies](#dependencies)
+  * [Verification](#verification)
 
 ## Usage
 
@@ -33,7 +38,19 @@ $ npm install @form8ion/octoherd-script --save
 
 ### Example
 
-run `npm run generate:md` to inject the usage example
+#### Import
+
+```javascript
+import {scaffold} from '@form8ion/octoherd-script';
+```
+
+#### Execute
+
+```javascript
+(async () => {
+  await scaffold({projectRoot: process.cwd()});
+})();
+```
 
 ## Contributing
 
