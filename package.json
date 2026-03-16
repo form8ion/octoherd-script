@@ -50,7 +50,7 @@
     "access": "public",
     "provenance": true
   },
-  "packageManager": "npm@11.7.0+sha512.c22099a6fff8d5b2286c2a09df5352b4858a7c0c716320f58989d60ad8b29ecf2ce6fdfe97ccb41c23ffb1272e1fa079f868487dd6b81d02a2a9e199c095a117",
+  "packageManager": "npm@11.11.1+sha512.6ac6b30a876415dcf545e433ba4cb34bf0c3efbb86088a9415e446de0b5a4fc6fd511d277b59bd40e06e3204fbda28f5aeded346b3a8c780355b39ed31622e12",
   "devDependencies": {
     "@cucumber/cucumber": "12.7.0",
     "@form8ion/commitlint-config": "2.0.10",
