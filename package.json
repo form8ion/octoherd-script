@@ -56,7 +56,7 @@
   },
   "packageManager": "npm@12.2.2+sha512.2a09606d9c9a71fee31fe147b8d46a56e0b3422f15848d9aec9f3b231e3716c3d3b99a065a62175c6759b4150e03bf6fc0bf8825112a511573ba903b3ec41370",
   "devDependencies": {
-    "@babel/register": "7.29.13",
+    "@babel/register": "8.1.2",
     "@cucumber/cucumber": "12.9.0",
     "@form8ion/babel-preset": "1.6.156",
     "@form8ion/commitlint-config": "3.0.3",
